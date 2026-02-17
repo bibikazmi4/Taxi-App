@@ -1,0 +1,50 @@
+name: swiftride_taxi_project
+description: SwiftRide - Real-time Taxi Ride Application (Assignment)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Google Maps
+  google_maps_flutter: ^2.5.0
+  google_maps_flutter_web: ^0.5.3
+  
+  # Location & Permissions
+  geolocator: ^10.1.0
+  permission_handler: ^11.0.1
+  
+  # Maps & Routing
+  flutter_polyline_points: ^2.0.0
+  
+  # HTTP & API
+  http: ^1.1.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Database
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.9.0
+  
+  # Utilities
+  intl: ^0.18.1
+  url_launcher: ^6.2.1  # ADD THIS FOR CALLING
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  
+  generate: true
